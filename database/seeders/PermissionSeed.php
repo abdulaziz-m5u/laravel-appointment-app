@@ -35,6 +35,11 @@ class PermissionSeed extends Seeder
             [ 'title' => 'user_edit',],
             [ 'title' => 'user_view',],
             [ 'title' => 'user_delete',],
+            [ 'title' => 'service_access',],
+            [ 'title' => 'service_create',],
+            [ 'title' => 'service_edit',],
+            [ 'title' => 'service_view',],
+            [ 'title' => 'service_delete',],
         ];
 
             Permission::insert($permissions);
